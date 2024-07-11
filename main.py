@@ -4,9 +4,9 @@ def main():
     files = [f for f in os.listdir() if f.endswith(".py") and not f.startswith('.')]
 
     while True:
-        print("\n\n 😄==== Menú ====😄")
+        print("\n\n programas generales")
         for i, filename in enumerate(files, start=1):
-            # Mostrar opciones numeradas según los archivos en el directorio
+           
             print(f"{i}. Ejecutar función de {filename}")
 
         print("q. Salir")
